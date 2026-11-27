@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #080808;
+  color: white;
+  font-family: Arial, sans-serif;
+  direction: rtl;
+}
+
+h1 {
+  color: #e50914;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 36px;
+}
+
+p {
+  text-align: center;
+  color: #cccccc;
+  font-size: 18px;
+}
