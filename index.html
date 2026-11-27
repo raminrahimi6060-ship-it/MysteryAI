@@ -3,11 +3,34 @@
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080808">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
 <title>Mystery AI</title>
 </head>
 <body>
-<h1>به Mystery AI خوش آمدید</h1>
-<p>دستیار هوش مصنوعی ساخت داستان و فیلم ترسناک</p>
+
+<header>
+<h1>🔴 MYSTERY AI</h1>
+<p>کارگاه هوشمند ساخت داستان ترسناک</p>
+</header>
+
+<main>
+<h2>داستان خودت را بساز</h2>
+
+<textarea id="storyPrompt" placeholder="موضوع داستان ترسناک را بنویس..."></textarea>
+
+<button id="createStory">✨ ساخت داستان</button>
+
+<div id="result">داستان تو اینجا نمایش داده می‌شود.</div>
+</main>
+
+<script src="script.js"></script>
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./service-worker.js");
+}
+</script>
 </body>
 </html>
