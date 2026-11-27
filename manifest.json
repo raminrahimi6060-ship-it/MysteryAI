@@ -1,0 +1,13 @@
+
+{
+  "name": "Mystery AI",
+  "short_name": "Mystery AI",
+  "description": "هوش مصنوعی ساخت داستان و فیلم ترسناک",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#080808",
+  "theme_color": "#e50914",
+  "icons": []
+}
